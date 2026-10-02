@@ -5,9 +5,6 @@ st.set_page_config(page_title="Colectivo AI", page_icon="🤖")
 
 st.title("🤖 COLECTIVO AI")
 st.caption("La personalidad de nuestros cinco compañeros")
-
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-
 # Información de las entrevistas
 companeros = {
     "Persona 1": {
