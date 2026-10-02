@@ -151,4 +151,4 @@ if st.session_state.get("pregunta_pendiente"):
 
 if st.button("🗑️ Nueva conversación"):
     st.session_state.chat = []
-    st.rerun(
+    st.rerun()
